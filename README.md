@@ -1,4 +1,4 @@
-Job Portal Backend API
+JOB PORTAL BACKEND API
 
 
 A scalable backend API for a Job Portal platform built with FastAPI. The project provides authentication, user management, job postings, applications, and RESTful APIs for job seekers and recruiters.
@@ -6,7 +6,7 @@ A scalable backend API for a Job Portal platform built with FastAPI. The project
 
 
 
-Features
+FEATURES
 
 
 User Authentication & Authorization
@@ -32,7 +32,7 @@ Environment-based Configuration
 
 
 
-Tech Stack
+TECH STACK
 
 
 Python 3.12+
@@ -54,7 +54,7 @@ Pytest
 
 
 
-API Modules
+API MODULES
 
 
 Authentication
@@ -68,7 +68,7 @@ JWT Token Generation
 
 
 
-Jobs
+JOBS
 
 
 Create Job
@@ -82,7 +82,7 @@ List Jobs
 
 
 
-Applications
+APPLICATIONS
 
 
 Apply for Job
@@ -91,6 +91,8 @@ View Applications
 
 Manage Candidate Applications
 
-Users
+USERS
+
+
 User Profile Management
 Role-Based Access Control
