@@ -1,39 +1,46 @@
-# Job Portal Backend API
+Job Portal Backend API
 
-FastAPI backend for a job portal with JWT authentication, refresh tokens, RBAC, candidate/recruiter/admin workflows, job search, email notification hooks, and analytics.
+A scalable backend API for a Job Portal platform built with FastAPI. The project provides authentication, user management, job postings, applications, and RESTful APIs for job seekers and recruiters.
 
-## Tech Stack
+Features
+User Authentication & Authorization
+JWT-based Security
+Recruiter and Job Seeker Roles
+Job Posting Management
+Job Application System
+Database Migrations with Alembic
+Input Validation with Pydantic
+RESTful API Design
+Automated Testing
+Environment-based Configuration
 
-- FastAPI
-- SQLAlchemy 2.0
-- Alembic
-- JWT auth with refresh tokens
-- Pytest
-- Optional Celery + Redis background tasks
+Tech Stack
+Python 3.12+
+FastAPI
+SQLAlchemy
+PostgreSQL
+Alembic
+Pydantic
+JWT Authentication
+Pytest 
 
-## Quick Start
+API Modules
+Authentication
+Register User
+Login User
+JWT Token Generation
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-copy .env.example .env
-alembic upgrade head
-uvicorn app.main:app --reload
-```
+Jobs
+Create Job
+Update Job
+Delete Job
+List Jobs
 
-API docs are available at `http://127.0.0.1:8000/docs`.
+Applications
+Apply for Job
+View Applications
+Manage Candidate Applications
 
-## Tests
-
-```bash
-pytest
-```
-
-## Default Roles
-
-- `candidate`
-- `recruiter`
-- `admin`
-
-The first admin can be promoted directly in the database or created by a seed script you add for your deployment.
+Users
+User Profile Management
+Role-Based Access Control
